@@ -55,6 +55,80 @@ html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
 }
+/* header ........................ */
+header{
+    display: flex;
+}
+header .logo{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+header nav{
+    display:flex;
+    width:70%;
+    margin-left:30px;
+    margin-top:15px;
+    justify-content: flex-end;
+    align-items: center;
+}
+header nav a{
+    flex-grow: 1;
+    text-decoration: none;
+    color: black;
+}
+header img{
+    padding: 20px 0px;
+}
+
+
+
+
+
+
+
+/* !!!!!!!!!!!!!!!!! */
+/* header {
+    position:relative;
+    display:flex;
+    max-width: 100%;
+    height:100%;
+    margin:0 auto;
+    padding:1rem 5rem;
+} */
+
+/* header h1 {
+    line-height: 45px;
+    font-size: 2rem;
+    margin: 0;
+    display:inline;
+} */
+/* nav a {
+    /* padding: 5%; */
+    /* position:relative;
+    display:inline-block; */
+    /* list-style-type: none; */
+    /* font-family: "Open Sans", "Droid Sans", Helvetica, Arial, sans-serif; */
+    /* color: #222;
+    padding:0 1rem;
+    text-decoration: none;
+    vertical-align: bottom;
+
+} */ 
+/* 
+nav li > a {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+}
+nav > li > a:hover,
+nav > li > a:focus {
+    text-decoration: none;
+    background-color: #eee; */
+
+/* !!!!!!!!!!!!!!!!! */
+
+
 
 h1, h2, h3, h4, h5 {
     font-size: 18px;
@@ -69,7 +143,12 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+    justify-content: space-between;
 }
+
+/* img.logo {
+    vertical-align: text-top;
+} */
 
 .top-content {
     display: flex;
